@@ -1,0 +1,68 @@
+.tablekota th {
+  color: #a87a41;
+}
+
+h6 strong {
+  color: #a87a41;
+}
+
+.tablekota .col h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #a87a41;
+  font-family: "Spectral", serif;
+}
+
+.tablekota .col p {
+  text-align: justify;
+  font-family: "Spectral", serif;
+  color: #a87a41;
+}
+
+.tablekota .col h4 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Spectral", serif;
+  color: #a87a41;
+}
+
+.tablekota a {
+  color: #a87a41;
+  text-decoration: none;
+}
+
+.tablekota a:hover {
+  color: #e49637;
+}
+
+/* mobile version */
+@media (max-width: 768px) {
+  .containerkota {
+    overflow-x: hidden;
+    width: 100%;
+    font-family: "Spectral", serif;
+  }
+
+  .tablekota {
+    font-size: 10px;
+  }
+
+  .containerkota h1 {
+    font-size: 25px;
+  }
+
+  .containerkota .tablekota h2 {
+    font-size: 20px;
+  }
+
+  .containerkota .tablekota p {
+    font-size: 1rem;
+  }
+
+  .containerkota .tablekota th td {
+    font-size: 1rem;
+  }
+  .h6{
+    color: #a87a41;
+  }
+}

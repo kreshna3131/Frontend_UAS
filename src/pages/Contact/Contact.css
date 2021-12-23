@@ -1,0 +1,129 @@
+.containercontact h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: "Spectral", serif;
+  color: #a87a41;
+}
+
+.card1,
+.card2,
+.card3 {
+  width: 350px;
+  height: 500px;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  transition: background 0.8s;
+  border: 1px solid #a87a41;
+}
+
+.card1 {
+  background: url(./img/bagas.jpeg);
+  background-size: 400px;
+  background-position: center;
+  position: relative;
+}
+
+.card2 {
+  background: url(./img/kreshna.jpg);
+  background-size: 400px;
+  background-position: center;
+  position: relative;
+}
+
+.card3 {
+  background: url(./img/ivan.jpg);
+  background-size: 400px;
+  background-position: center;
+  position: relative;
+}
+
+.card:hover {
+  background-size: 800px;
+  background-position: left center;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  bottom: 8px;
+  right: 8px;
+  border-radius: 15px;
+  border: 1px solid #f6f6f6;
+  opacity: 0;
+  transition: opacity 0.8s;
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+.card span {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+  font-family: "Courier New", Courier, monospace;
+  color: #f6f6f6;
+  font-weight: bolder;
+  font-size: 29px;
+  text-shadow: 0 5px 5px #111;
+  opacity: 0;
+  transition: all 0.8s;
+  transform: translateY(20px);
+}
+
+.card:hover span {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.social-media-list {
+  padding: 0;
+  list-style: none;
+  bottom: 15px;
+  left: 25px;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.social-media-list li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.social-media-list i {
+  color: #f6f6f6;
+  font-size: 18px;
+}
+
+.card:hover .social-media-list {
+  opacity: 1;
+}
+
+@media (max-width: 769px) {
+  body {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1202px) {
+  .card1,
+  .card2,
+  .card3 {
+    margin-bottom: 30px;
+  }
+}
