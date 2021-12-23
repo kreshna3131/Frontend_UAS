@@ -1,4 +1,4 @@
-# GIthub My TEAM Project
+# Github My TEAM Project
 <ol>
   <li>https://github.com/vandinta</li>
   <li>https://github.com/bagasap7</li>
