@@ -1,3 +1,10 @@
+# GIthub My TEAM Project
+<ol>
+  <li>https://github.com/vandinta</li>
+  <li>https://github.com/bagasap7</li>
+</ol>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
